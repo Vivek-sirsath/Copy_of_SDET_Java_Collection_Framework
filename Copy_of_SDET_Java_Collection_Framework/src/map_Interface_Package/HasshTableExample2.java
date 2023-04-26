@@ -2,7 +2,7 @@ package map_Interface_Package;
 
 import java.util.Hashtable;
 
-public class HasshTableExample2 {
+public class HashTableExample2 {
 
 	public static void main(String[] args) {
 		
