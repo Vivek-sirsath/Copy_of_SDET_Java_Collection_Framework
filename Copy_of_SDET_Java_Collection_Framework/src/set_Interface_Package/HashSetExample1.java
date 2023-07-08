@@ -35,6 +35,7 @@ public class HashSetExample1 {
 
 		// Insertion order is not preserved
 		// Duplicates not allowed
+		
 		System.out.println(hs); // [16.5, null, A, 100, Welcome, true] 
 		
 

@@ -15,7 +15,7 @@ public class LinkedListExample1 {
 
 //		  If we want to store homogeneous data of Integer Type 
 //		  LinkedList<Integer> l = new LinkedList<Integer>(); 
-//		  If we want to store homogeneous data of String
+//		  If we want to store homogeneous data of String Type
 //		  Type LinkedList<String> l = new LinkedList<String>();
 		
 		// Add elements to Linked List
@@ -44,11 +44,11 @@ public class LinkedListExample1 {
 		System.out.println("After inserting Java:- " + l);  // [100, Welcome, Java, true, null]
 
 		// Retrieve the value from Linked List 
-		System.out.println("After retrieving index 2 element:- " + l.get(2));
+		System.out.println("After retrieving index 2 element:- " + l.get(2)); // Java
 		
-		// Replace / change the element by set()
+		// Replace / change the element by set() method
 		l.set(4, "Hello");
-		System.out.println("After Replacing 'null':- " + l);
+		System.out.println("After Replacing 'null':- " + l);  // [100, Welcome, Java, true, Hello]
 		
 		// Check the presence of any element inside Linked List using contains() method
 		// Returns true if the element is present
@@ -59,7 +59,7 @@ public class LinkedListExample1 {
 		// Check if Linked List is empty or not
 		// Returns true if the Linked List is Empty
 		// Return false if theLinked List is not Empty
-		System.out.println("Is Linked List empty?:- " + l.isEmpty());
+		System.out.println("Is Linked List empty?:- " + l.isEmpty()); // false
 		
 		
 		// 1st WAY to read all the elements from Linked List

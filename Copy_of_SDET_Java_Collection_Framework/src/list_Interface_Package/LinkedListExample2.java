@@ -1,5 +1,5 @@
 
-// Implementation of methods like addAll(), removeAll(), sort(), shuffle()
+// Implementation of methods like addAll(), removeAll(), sort(), shuffle() 
 // If we wish to add, remove Or manipulate multiple objects in Linked List
 
 package list_Interface_Package;
@@ -14,7 +14,7 @@ public class LinkedListExample2 {
 		// Create Linked List (At first it ill be empty)
 		LinkedList list = new LinkedList();
 		
-		System.out.println("Is Linked List empty?:- " + list.isEmpty());
+		System.out.println("Is Linked List empty?:- " + list.isEmpty());  // true
 		
 		
 		list.add('X');
@@ -24,7 +24,7 @@ public class LinkedListExample2 {
 		list.add('B');
 		list.add('C');
 		
-		// Create another Linked List and Add all elements from previous Linked List
+		// Create another Linked List (list_dup) and Add all elements from previous Linked List into new Linked List
 		LinkedList list_dup = new LinkedList();
 		list_dup.addAll(list);
 		System.out.println("Duplicate Linked List:-" + list_dup); // [X, Y, Z, A, B, C]
