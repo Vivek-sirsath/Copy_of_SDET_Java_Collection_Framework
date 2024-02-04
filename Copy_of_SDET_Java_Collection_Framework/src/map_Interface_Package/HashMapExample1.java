@@ -24,15 +24,18 @@ public class HashMapExample1 {
 		m.put(105, "Henry");
 		m.put(104, "Mary");
 		m.put(103, "Scott");        
-		m.put(101, "John");  // Duplicate Keys Not allowed
-		m.put(102, "David"); // Duplicate values allowed		
+		m.put(101, "John");   // Duplicate Keys Not allowed
+		m.put(102, "David");  // Duplicate values allowed		
 		m.put(106, "X");
 		m.put(107, "David");
 		m.put(null, null);
-//		m.put(null, null); // Only One null key allowed // Multiple null values allowed
-//		m.put(true, true); // Boolean not allowed
+		m.put(108, null);
+//		m.put(null, "Steve"); // Multiple null keys not allowed
+//		m.put(null, "Erika"); // Multiple null keys not allowed
+//		m.put(null, null);    // Only One null key allowed // Multiple null values allowed
+//		m.put(true, true);    // Boolean not allowed
 		
-		// Inser
+		// Insertion order Not Preserved
 		System.out.println("HashMap:- " + m); // {101=John, 102=David, 103=Scott, 104=Mary, 105=Henry, 106=X, 107=David}
 		
 		// To get single element value

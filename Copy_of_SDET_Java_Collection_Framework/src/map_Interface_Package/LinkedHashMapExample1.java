@@ -17,10 +17,16 @@ public class LinkedHashMapExample1 {
 		lhmap.put(105, null);
 		lhmap.put(true, true);
 		lhmap.put(108, null);
-//		lhmap.put(102, "vandana"); 
+		lhmap.put(null, null);
+		lhmap.put(null, "Deepika"); // Only one null key Accepted
+		lhmap.put(109, null);
+		lhmap.put(110, "Deepika");
+		
+//		lhmap.put(102, "vandana");  // Duplicate Keys Not Allowed
 
-		// Insertion Order Preserved
-		// Duplicate Keys Not Allowed, Duplicate Values Allowed
+		// Insertion order preserved
+		// Duplicate keys not allowed, Duplicate values allowed
+		// Only one null key accepted, Multiple null values accepted
 		System.out.println(lhmap);
 		// {106=Vivek, 103=75.5, 102=Ishu, 101=true, 104=30, 105=null, true=true, 108=null}
 	
